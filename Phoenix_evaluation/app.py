@@ -64,23 +64,27 @@ def main():
                 systems = ScoreSys(page_id=num)        
                 
                 if st.form_submit_button('NEXT'): 
-                    if Bad_refs != 1:               
+                    if Bad_refs:               
+                        st.session_state.data.append({
+                        'Score1': 0,
+                        'Score2': 0,
+                        'Score3': 0,
+                        'Comment': systems.comments,
+                        'BAD_REF': 1})
+                    else:
                         st.session_state.data.append({
                         'Score1': systems.score1,
                         'Score2': systems.score2,
                         'Score3': systems.score3,
                         'Comment': systems.comments,
                         'BAD_REF': 0})
-                    else:
-                        st.session_state.data.append({
-                        'Score1': 0,
-                        'Score2': 0,
-                        'Score3': 0,
-                        'Comment': systems.comments,
-                         'BAD_REF': 1})
                     st.session_state.num += 1
                     placeholder.empty()
                     placeholder2.empty()
+                
+                elif st.form_submit_button('PREVIOUS'):
+                    st.session_state.data.pop()
+                    st.session_state.num -= 1
                 else:
                     st.stop()
 
