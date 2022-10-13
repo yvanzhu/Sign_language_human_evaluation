@@ -1,8 +1,16 @@
-1. Download the ZIP file and decompress the file
-2. Install the Python 3.8+
-3. For MacOs user:
-3.1 Open the terminal and cd the corresponding file location
-3.2 Run "pip3 install -r requirements.txt"
+# Streamlit
+
+## Basic setup
+## For Mac & Windows user:
+
+1. Clone the repository
+ 
+        git clone 
+        
+3. Install the Python 3.8+
+
+4.1 Open the terminal and cd the corresponding file location
+5.2 Run "pip3 install -r requirements.txt"
 
 4. After downloading the package, run "streamlit run app.py"
 
