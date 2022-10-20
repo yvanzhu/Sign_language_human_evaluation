@@ -22,7 +22,7 @@
 Open the browser at http://localhost:8501/
 
 ## The interface
-<img src="https://github.com/yvanzhu/Sign_language_human_evaluation/blob/main/Phoenix_evaluation/Interface.png" width="400" height="600" alt="Image text"/><br/>
+<img src="https://github.com/yvanzhu/Sign_language_human_evaluation/blob/main/Phoenix_evaluation_new/Interface.png" width="400" height="600" alt="Image text"/><br/>
 
 1. If you think it is a bad reference either in source side or target side, click the top button of the interface and leave the comment below. The scores will be automatically saved to 0.
 
