@@ -9,7 +9,7 @@
 2. Install the Python3 (Better the newest version)
 3. Open the Terminal and change directory to
         
-        cd ./Sign_language_human_evaluation/Phoenix_evaluation
+        cd ./Sign_language_human_evaluation/Phoenix_evaluation_04012023
 
 4. Install the Python Requirements
 
